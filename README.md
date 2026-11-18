@@ -15,8 +15,8 @@ Formal machine verification in **Lean 4** (using `Mathlib`) of the analytical, g
    Zenodo Code Archive: [DOI: 10.5281/zenodo.24250160](https://doi.org).
 
 ## Repository Structure
-* `NonReflexiveProjections/BasicProjections.lean` — Proximinal subspaces, consistent selector lattices, Deutsch's splitting theorem, Birkhoff–James orthogonality criteria in $L_1(\Omega)$, Kolmogorov's criterion in $C(K)$, and global Lipschitz stability bounds via mutual inclination $\delta(V, U)$.
-* `NonReflexiveProjections/HybridDiscretization.lean` — Joint sign-weighted integral-discrete criteria in $L_1(\Omega) \oplus \ell_1(\mathbb{N})$, finite-precision operator quantization bounds, pipeline perturbation stability, polynomial-time reductions from `Subset-Sum` and `Partition`, and explicit matrix verification in $\ell_1^8$.
+* `NonReflexiveProjections/NonReflexiveProjections_v3.lean` — Proximinal subspaces, consistent selector lattices, Deutsch's splitting theorem, Birkhoff–James orthogonality criteria in $L_1(\Omega)$, Kolmogorov's criterion in $C(K)$, and global Lipschitz stability bounds via mutual inclination $\delta(V, U)$.
+* `NonReflexiveProjections/HybridDiscretizationVerification.lean` — Joint sign-weighted integral-discrete criteria in $L_1(\Omega) \oplus \ell_1(\mathbb{N})$, finite-precision operator quantization bounds, pipeline perturbation stability, polynomial-time reductions from `Subset-Sum` and `Partition`, and explicit matrix verification in $\ell_1^8$.
 
 ## Verification & Build Instructions
 All theorems are proven completely without `sorry` or custom axioms. To build the project locally:
