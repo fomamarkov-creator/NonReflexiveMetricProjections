@@ -2,10 +2,13 @@
 
 Formal machine verification in **Lean 4** (using Mathlib) by **E. S. Markov** of analytical, geometric, and combinatorial results on continuous linear selections of multivalued metric projections in non-reflexive Banach spaces.
 
-## Associated Publications & Zenodo Archives
+## Author & Publications
 
-1. **Part 1:** DOI: `10.5281/zenodo.24318041` (Concept DOI: `10.5281/zenodo.24247032`).
-2. **Part 2:** DOI: `10.5281/zenodo.24250160`.
+- **E. S. Markov** (Independent Researcher) — ORCID: `0009-0005-2235-5464`
+- **Part 1:** *On Linear Metric Projections...* (2026) — DOI: `10.5281/zenodo.24318041` (Concept: `10.5281/zenodo.24247032`)
+- **Part 2:** *On Discretization of Linear Selections...* (2026) — DOI: `10.5281/zenodo.24250160`
+- 
+
 
 ## Mathlib4 Upstream Pull Requests (`leanprover-community/mathlib4`)
 
