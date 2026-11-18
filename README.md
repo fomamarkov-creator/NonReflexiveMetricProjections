@@ -18,8 +18,19 @@ Formal machine verification in **Lean 4** (using Mathlib) by **E. S. Markov** of
 - **`#46194`** — `Mathlib/MeasureTheory/Function/L1Space/Projection.lean`
 - **`#46195`** — `Mathlib/Analysis/Normed/Module/HybridDiscretization.lean`
 
-## Repository Structure & Build
+## Repository Structure 
 
 - **Files:** `NonReflexiveProjections/NonReflexiveProjections_v3.lean`, `NonReflexiveProjections/HybridDiscretizationVerification.lean`, and modules in `MathlibPR/`.
-- **Build:** Verified without `sorry` or custom axioms (`lake exe cache get`, `lake build`).
-- **License:** Dual-licensed under GNU AGPL-3.0 and Apache License 2.0.
+- 
+## Build & Verification
+
+All proofs are machine-checked in **Lean 4** without `sorry` or custom axioms. To build locally:
+
+```bash
+lake exe cache get
+lake build
+```
+
+## License
+
+Dual-licensed under **GNU Affero General Public License v3.0 (AGPL-3.0)** and **Apache License 2.0** (at your option, for compatibility with `leanprover-community/mathlib4`).
