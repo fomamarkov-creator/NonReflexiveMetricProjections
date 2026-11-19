@@ -1,0 +1,23 @@
+name: Lean Action CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        continue-on-error: true
+        with:
+          use-github-cache: false
+          use-mathlib-cache: false
+      - name: Update, fetch cache and build
+        run: |
+          ~/.elan/bin/lake update
+          ~/.elan/bin/lake exe cache get
+          ~/.elan/bin/lake build
