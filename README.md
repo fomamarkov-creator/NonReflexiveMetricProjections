@@ -1,3 +1,5 @@
+[![Lean Action CI](https://github.com/fomamarkov-creator/NonReflexiveMetricProjections/actions/workflows/lean_action_ci.yml/badge.svg)](https://github.com/fomamarkov-creator/NonReflexiveMetricProjections/actions/workflows/lean_action_ci.yml)
+
 # Linear Metric Projections and Discretization in Non-Reflexive Banach Spaces (Lean 4)
 
 Formal machine verification in **Lean 4** (using Mathlib) by **E. S. Markov** of analytical, geometric, and combinatorial results on continuous linear selections of multivalued metric projections in non-reflexive Banach spaces.
